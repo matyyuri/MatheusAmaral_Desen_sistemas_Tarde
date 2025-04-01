@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataList</title>
+</head>
+<body>
+    <h3>Aluno: Matheus Yuri do Amaral</h3>
+    <h1>Escolha um navegador</h1>
+
+    <form accept="/action_page.php" method="get">
+        <input list="browsers" name="browser">
+        <datalist id="browsers">                    <!--O datalist da pra escrever, diferente do Select-->
+            <option value="Internet Explorer">
+            <option value="FireFox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <input type="submit">
+    </form>
+
+    <p><strong>Nota:</strong>Não é suportado no Safari 12.0</p>
+</body>
+</html>
