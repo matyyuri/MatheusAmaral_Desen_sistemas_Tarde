@@ -1,10 +1,11 @@
 body{
     background: silver;
+    font-family: italic;
 }
 
 p {
     color:green;
-    font-style: italic;
+    font-style: Arial;
 }
 
 h3, h4 {
