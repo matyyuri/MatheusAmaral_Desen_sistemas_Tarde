@@ -6,7 +6,7 @@ function mascara(o, f) { //DEFINE O OBJETO E CHAMA FUNCAO
     setTimeout("executaMascara()",1)
 }
 
-function executaMasca() {
+function executaMascara() {
     objeto.value=funcao(objeto.value)
 }
 
@@ -39,6 +39,7 @@ function RGeCPF(variavel){
 
     //Coloca um HIFEM após o sétimo digito e permite apenas 2 digitos após o HIFEM
     variavel=variavel.replace (/(\d{3})(\d{1,2})$/,"$1-$2")
+    return variavel
 }
 
 //Mascara do CEP
